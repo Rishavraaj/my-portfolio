@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/1a44bafb97.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="cursor">
+
+    </div>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/RISHAVHEADT.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Experience</a></li>
+                    <li><a href="#">Sevices</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <span class="text"></span>
+                <h1>Hi, I'm <span>Rishav</span><br> Raj from India</h1>
+            </div>
+        </div>
+    </div>
+<!-- -----------------------------------------------about------------------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/demo.jpg" alt="About me">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Temporibus, ipsa autem eveniet quisquam ullam officia
+                        voluptatum odit mollitia aliquam omnis minima iure dolores
+                        saepe eius, quis commodi numquam qui magni.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-centent active-tab" id="skills">
+                        <ul>
+                            <li><span>Backend</span><br> Backend Devloper</span></li>
+                            <li><span>Frontend</span><br> Frontend Devloper</span></li>
+                            <li><span>Full Stack</span><br> Full Stack Devloper</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-centent" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br> Backend Devloper</span></li>
+                            <li><span>Fresher</span><br> Frontend Devloper</span></li>
+                            <li><span>Fresher</span><br> Full Stack Devloper</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-centent" id="education">
+                        <ul>
+                            <li><span>Matriculation</span><br> 2016-2017</span></li>
+                            <li><span>Intermediate</span><br> 2017-2019</span></li>
+                            <li><span>Graduation</span><br> 2019-2022</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------------------Services--------------------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Full stack Devloper</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Temporibus, ipsa autem eveniet quisquam ullam officia
+                        voluptatum odit mollitia aliquam omnis minima iure dolores
+                        saepe eius, quis commodi numquam qui magni.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Frontend Devloper</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Temporibus, ipsa autem eveniet quisquam ullam officia
+                        voluptatum odit mollitia aliquam omnis minima iure dolores
+                        saepe eius, quis commodi numquam qui magni.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>Backend Devloper</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Temporibus, ipsa autem eveniet quisquam ullam officia
+                        voluptatum odit mollitia aliquam omnis minima iure dolores
+                        saepe eius, quis commodi numquam qui magni.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------------------Skills----------------------------------------- -->
+
+
+    <div class="skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="progress-bar">
+                <div class="card">
+                    <div class="inner">
+                    <div class="percent" style="--clr: #FF9551; --num: 85;">
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx = "70" cy="70" r = "70"> </circle>
+                            <circle cx = "70" cy="70" r = "70"> </circle>
+                        </svg>
+                        <div class="number">
+                            <h2>85<span>%</span></h2>
+                            <p>HTML</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="percent" style="--clr: #00AF91; --num: 70;">
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx = "70" cy="70" r = "70"> </circle>
+                            <circle cx = "70" cy="70" r = "70"> </circle>
+                        </svg>
+                        <div class="number">
+                            <h2>70<span>%</span></h2>
+                            <p>CSS</p>
+                        </div>
+                    </div>
+                </div><div class="card">
+                    <div class="percent" style="--clr: #00FFAB; --num: 60;">
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx = "70" cy="70" r = "70"> </circle>
+                            <circle cx = "70" cy="70" r = "70"> </circle>
+                        </svg>
+                        <div class="number">
+                            <h2>60<span>%</span></h2>
+                            <p>javascript</p>
+                        </div>
+                    </div>
+                </div><div class="card">
+                    <div class="percent" style="--clr: #88FFF7; --num: 60;">
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx = "70" cy="70" r = "70"> </circle>
+                            <circle cx = "70" cy="70" r = "70"> </circle>
+                        </svg>
+                        <div class="number">
+                            <h2>60<span>%</span></h2>
+                            <p>JAVA</p>
+                        </div>
+                    </div>
+                </div><div class="card">
+                    <div class="percent" style="--clr: #ED50F1; --num: 15;">
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx = "70" cy="70" r = "70"> </circle>
+                            <circle cx = "70" cy="70" r = "70"> </circle>
+                        </svg>
+                        <div class="number">
+                            <h2>15<span>%</span></h2>
+                            <p>REACT</p>
+                        </div>
+                    </div>
+                </div><div class="card">
+                    <div class="percent" style="--clr: #FFD36E; --num: 10;">
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx = "70" cy="70" r = "70"> </circle>
+                            <circle cx = "70" cy="70" r = "70"> </circle>
+                        </svg>
+                        <div class="number">
+                            <h2>10<span>%</span></h2>
+                            <p>NODE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------------portfolio----------------------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/first.jpg" alt="">
+                    <div class="layer">
+                        <h3>Blog Website</h3>
+                        <p>This is a blog website using react and javascript ,
+                            Click on below link to vist the blog website
+                            thanks :) </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/second.jpg" alt="">
+                    <div class="layer">
+                        <h3>Flipkart Clone</h3>
+                        <p>This is a Flipkart clone website using react and javascript ,
+                            Click on below link to vist the Flipkart clone website
+                            thanks :)</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/third.jpg" alt="">
+                    <div class="layer">
+                        <h3>Whatsapp Clone</h3>
+                        <p>This is a Whatsapp clone website using react and javascript ,
+                            Click on below link to vist the Whatsapp clone website
+                            thanks :)</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <!-- -------------------------------------------------contact------------------------------------------------>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>rishavrajpatna7@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 7667126993</p>
+                    <div class="social-icons">
+                        <a href="#"><i id="github" class="fa-brands fa-github"></i></a>
+                        <a href="#"><i id="linkedin" class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i id="twitter" class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i id="instagram" class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i id="google" class="fa-brands fa-google"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email id" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button class="btn btn2" type="submit">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Rishav Raj<i class="fa-solid fa-registered"></i></p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-link");
+        var tabcontents = document.getElementsByClassName("tab-centent");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        // ---------------------------------------------------------------------
+
+        const text = document.querySelector(".text");
+
+        const textLoad = () => {
+            setTimeout(() => {
+                text.textContent = "Full Stack Devloper";
+            }, 0);
+            setTimeout(() => {
+                text.textContent = "Frontend Web Devloper";
+            }, 4000);
+            setTimeout(() => {
+                text.textContent = "Backend Web Devloper";
+            }, 8000);
+        }
+
+            textLoad();
+            setInterval(textLoad, 12000);
+
+    </script>
+
+</body>
+
+</html>
